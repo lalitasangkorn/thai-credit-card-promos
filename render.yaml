@@ -1,0 +1,21 @@
+# render.yaml — Blueprint สำหรับ deploy บน Render (https://render.com)
+# วิธีใช้: push โค้ดขึ้น GitHub แล้วบน Render เลือก "New +" > "Blueprint" ชี้มาที่ repo นี้
+services:
+  - type: web
+    name: thai-credit-card-promos
+    runtime: docker            # ใช้ Dockerfile (มี Chrome สำหรับ puppeteer)
+    plan: free                 # ฟรี! RAM 512MB — ตั้งค่าด้านล่างให้เบาที่สุดเพื่อกัน OOM
+    region: singapore          # ใกล้ไทยที่สุด
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: SCRAPER_MODE
+        value: puppeteer        # ดึงสดจริงด้วยเบราว์เซอร์
+      - key: PUPPETEER_EXECUTABLE_PATH
+        value: /usr/bin/google-chrome-stable
+      - key: CACHE_TTL_MS
+        value: "1800000"        # แคช 30 นาที — บน free ควรยาวหน่อย ให้เปิด Chrome ไม่ถี่ (มีปุ่ม "ดึงสดใหม่" บังคับโหลดได้)
+      - key: SCRAPE_CONCURRENCY
+        value: "1"              # เปิดทีละ 1 ธนาคาร — สำคัญมากบน free กัน RAM ล้น
+      - key: FETCH_TIMEOUT_MS
+        value: "20000"
