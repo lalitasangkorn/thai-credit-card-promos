@@ -146,6 +146,21 @@ export const BANKS = [
       image: "img",
     },
   },
+  {
+    id: "cardx",
+    name: "การ์ดเอกซ์ (CardX)",
+    short: "CardX",
+    color: "#6a1b9a",
+    url: "https://www.cardx.co.th/products/credit-card",
+    needsJs: true,
+    selectors: {
+      card: ".card-item, .promotion-card, article",
+      title: "h3, .title",
+      summary: ".description, p",
+      link: "a",
+      image: "img",
+    },
+  },
 ];
 
 export const BANK_BY_ID = Object.fromEntries(BANKS.map((b) => [b.id, b]));
