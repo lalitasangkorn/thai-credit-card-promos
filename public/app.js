@@ -96,7 +96,8 @@ function applyFilters() {
   return state.promos.filter((p) => {
     if (f.q && !`${p.title} ${p.summary}`.toLowerCase().includes(f.q)) return false;
     if (f.minSalary > 0 && p.minSalary > f.minSalary) return false;
-    if (f.categories.size && !p.categories.some((c) => f.categories.has(c))) return false;
+    // ต้องเข้า "ทุก" หัวข้อเด่นที่เลือก (AND)
+    if (f.categories.size && ![...f.categories].every((c) => p.categories.includes(c))) return false;
     if (f.banks.size && !f.banks.has(p.bankId)) return false;
     return true;
   });
