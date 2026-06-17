@@ -16,6 +16,8 @@ export const SEED = {
     { title: "บัตรเครดิต World Rewards กสิกรไทย", summary: "บัตรระดับบน สิทธิ์เลานจ์สนามบิน ร้านอาหาร ท่องเที่ยว และสะสมคะแนนพิเศษ", minSalary: 50000, categories: ["lounge", "travel", "dining", "points"] },
     { title: "บัตรเครดิต WISDOM กสิกรไทย", summary: "บัตรพรีเมียม สิทธิ์เลานจ์สนามบินและบริการระดับสูง", minSalary: 100000, categories: ["premium", "lounge", "travel", "points"] },
     { title: "บัตรเครดิตเดอะพรีเมียร์ กสิกรไทย", summary: "บัตรสำหรับลูกค้า The Premier สิทธิ์เลานจ์และไลฟ์สไตล์ระดับสูงสุด", minSalary: 100000, categories: ["premium", "lounge", "travel"] },
+    { title: "KBank PLUSTINUM", summary: "Miracle Lounge สุวรรณภูมิ (ขาออก ตปท.) 2 ครั้ง/ปี — กดรับ E-Coupon ใน K PLUS ไม่จำกัดสายการบิน", minSalary: 15000, categories: ["lowincome", "lounge", "travel"], url: "https://www.kasikornbank.com/th/personal/creditcard/pages/plustinum.aspx" },
+    { title: "KBank JCB Platinum", summary: "Miracle Lounge สุวรรณภูมิ 2 ครั้ง/ปี (ต้องบินการบินไทย) + LoungeKey 8 ประเทศต่างประเทศ", minSalary: 15000, categories: ["lowincome", "lounge", "travel", "points"], url: "https://www.kasikornbank.com/th/personal/creditcard/pages/jcb.aspx" },
   ],
   scb: [
     { title: "บัตรเครดิต SCB VISA Classic", summary: "บัตรเริ่มต้นใช้จ่ายทั่วไป สะสมคะแนน SCB Rewards", minSalary: 15000, categories: ["lowincome", "points"] },
@@ -47,6 +49,8 @@ export const SEED = {
     { title: "บัตรเครดิต KTC PROUD", summary: "บัตรผ่อนสินค้าและกดเงินสด แบ่งจ่ายสบาย ฟรีค่าธรรมเนียมตลอดชีพ", minSalary: 15000, categories: ["lowincome", "nofee", "installment"] },
     { title: "บัตรเครดิต KTC ROYAL ORCHID PLUS", summary: "สะสมไมล์การบินไทย ฟรีค่าธรรมเนียมตลอดชีพ เหมาะกับนักเดินทาง", minSalary: 50000, categories: ["nofee", "miles", "travel"] },
     { title: "บัตรเครดิต KTC VISA SIGNATURE", summary: "บัตรระดับบน สิทธิ์เลานจ์สนามบิน ร้านอาหาร และท่องเที่ยว", minSalary: 50000, categories: ["nofee", "lounge", "travel", "dining", "points"] },
+    { title: "KTC X BANGKOK AIRWAYS VISA SIGNATURE", summary: "Blue Ribbon Club Lounge (Bangkok Airways) 4 ครั้ง/ปี — ต้องบิน Bangkok Airways · ฟรีค่าธรรมเนียมตลอดชีพ", minSalary: 15000, categories: ["lowincome", "nofee", "lounge", "travel"], url: "https://www.ktc.co.th/credit-card/co-branded/ktc-x-bangkok-airways-visa-signature" },
+    { title: "KTC – BANGKOK AIRWAYS PLATINUM MASTERCARD", summary: "Blue Ribbon Club Lounge (Bangkok Airways) — ต้องบิน Bangkok Airways · ฟรีค่าธรรมเนียมตลอดชีพ", minSalary: 15000, categories: ["lowincome", "nofee", "lounge", "travel"], url: "https://www.ktc.co.th/credit-card/co-branded/ktc-bangkok-airways-platinum-mastercard" },
   ],
   bbl: [
     { title: "บัตรเครดิตแพลทินัม ธนาคารกรุงเทพ", summary: "บัตรหลักสะสมคะแนน Thank You Rewards ใช้จ่ายทั่วไป", minSalary: 15000, categories: ["lowincome", "points"] },
@@ -73,8 +77,16 @@ export const SEED = {
     { title: "บัตรเครดิต UOB Preferred Platinum", summary: "สะสมคะแนน UNI$ ช้อปปิ้งและร้านค้าร่วมรายการ", minSalary: 15000, categories: ["lowincome", "points"] },
     { title: "บัตรเครดิต UOB Lady's", summary: "บัตรสำหรับผู้หญิง สิทธิ์ช้อปปิ้งและร้านอาหาร", minSalary: 15000, categories: ["lowincome", "dining", "points"] },
     { title: "บัตรเครดิต UOB PRIVIMILES", summary: "สะสมไมล์เดินทางรวดเร็ว สิทธิ์เลานจ์สนามบิน เหมาะกับนักเดินทาง", minSalary: 50000, categories: ["miles", "travel", "lounge"] },
-    { title: "บัตรเครดิต UOB Premier", summary: "บัตรระดับบน สิทธิ์เดินทางและสะสมคะแนนพิเศษ", minSalary: 30000, categories: ["travel", "points"] },
+    { title: "บัตรเครดิต UOB Premier", summary: "ห้องรับรองสนามบินในไทย 2 ครั้ง/ปี (แสดงบัตร+Boarding Pass, ≤2 ชม./ครั้ง) สะสมคะแนนพิเศษ", minSalary: 30000, categories: ["lounge", "travel", "points"], url: "https://www.uob.co.th/personal-en/credit-cards/shopping/uob-premier-credit-card.page" },
     { title: "บัตรเครดิต UOB Lady's Solitaire", summary: "บัตรผู้หญิงระดับบน สิทธิ์ท่องเที่ยวและร้านอาหาร", minSalary: 30000, categories: ["travel", "dining"] },
     { title: "บัตรเครดิต UOB Visa Infinite", summary: "บัตรพรีเมียมสูงสุด สิทธิ์เลานจ์และบริการระดับโลก", minSalary: 100000, categories: ["premium", "lounge", "travel"] },
+  ],
+  aeon: [
+    { title: "AEON UnionPay Platinum", summary: "Miracle Lounge สุวรรณภูมิ/ดอนเมือง 2 ครั้ง/ปี — ต้องรับบัตรกำนัลก่อน (ลูกค้าใหม่ใช้จ่าย ≥20,000/60 วัน หรือเดิม ≥120,000/ปี)", minSalary: 15000, categories: ["lowincome", "lounge", "travel"], url: "https://www.aeon.co.th/aeon/news-events/privileges-union-pay-platinum" },
+    { title: "AEON Royal Orchid Plus JCB Platinum", summary: "Royal Silk Lounge (การบินไทย) สุวรรณภูมิ+เชียงใหม่ 2 ครั้ง/ปี — ต้องบินการบินไทย · สะสมไมล์ ROP + JCB Lounge ตปท.", minSalary: 30000, categories: ["lounge", "travel", "miles"], url: "https://www.aeon.co.th/aeon/cards/aeon-rop-platinum-card" },
+  ],
+  icbc: [
+    { title: "ICBC ANY Mastercard Platinum", summary: "บัตรกำนัล Miracle Lounge + DragonPass — บัตรระดับ Platinum (รายได้ขั้นต่ำ 15,000 สัญชาติไทย)", minSalary: 15000, categories: ["lowincome", "lounge", "travel"], url: "https://www.icbcthai.com/th/column/1035483406035103745.html" },
+    { title: "ICBC Global Travel", summary: "บัตร 3 สกุลเงิน + บัตรกำนัล Miracle Lounge + DragonPass — เหมาะกับสายเที่ยวต่างประเทศ", minSalary: 15000, categories: ["lowincome", "lounge", "travel", "online"], url: "https://www.icbcthai.com/th/column/1438059017468788915.html" },
   ],
 };
