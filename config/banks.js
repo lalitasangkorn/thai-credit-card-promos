@@ -116,6 +116,36 @@ export const BANKS = [
       image: "img",
     },
   },
+  {
+    id: "aeon",
+    name: "อิออน (AEON)",
+    short: "AEON",
+    color: "#e6007e",
+    url: "https://www.aeon.co.th/aeon/cards",
+    needsJs: true,
+    selectors: {
+      card: ".card-item, .promotion-card, article",
+      title: "h3, .title",
+      summary: ".description, p",
+      link: "a",
+      image: "img",
+    },
+  },
+  {
+    id: "icbc",
+    name: "ไอซีบีซี ไทย (ICBC)",
+    short: "ICBC",
+    color: "#c30d23",
+    url: "https://www.icbcthai.com/th/personal/card",
+    needsJs: true,
+    selectors: {
+      card: ".card-item, .promotion-card, article",
+      title: "h3, .title",
+      summary: ".description, p",
+      link: "a",
+      image: "img",
+    },
+  },
 ];
 
 export const BANK_BY_ID = Object.fromEntries(BANKS.map((b) => [b.id, b]));
