@@ -51,6 +51,10 @@ export const SEED = {
     { title: "บัตรเครดิต KTC VISA SIGNATURE", summary: "บัตรระดับบน สิทธิ์เลานจ์สนามบิน ร้านอาหาร และท่องเที่ยว", minSalary: 50000, categories: ["nofee", "lounge", "travel", "dining", "points"] },
     { title: "KTC X BANGKOK AIRWAYS VISA SIGNATURE", summary: "Blue Ribbon Club Lounge (Bangkok Airways) 4 ครั้ง/ปี — ต้องบิน Bangkok Airways · ฟรีค่าธรรมเนียมตลอดชีพ", minSalary: 15000, categories: ["lowincome", "nofee", "lounge", "travel"], url: "https://www.ktc.co.th/credit-card/co-branded/ktc-x-bangkok-airways-visa-signature" },
     { title: "KTC – BANGKOK AIRWAYS PLATINUM MASTERCARD", summary: "Blue Ribbon Club Lounge (Bangkok Airways) — ต้องบิน Bangkok Airways · ฟรีค่าธรรมเนียมตลอดชีพ", minSalary: 15000, categories: ["lowincome", "nofee", "lounge", "travel"], url: "https://www.ktc.co.th/credit-card/co-branded/ktc-bangkok-airways-platinum-mastercard" },
+    { title: "KTC PLATINUM MASTERCARD", summary: "ฟรีค่าธรรมเนียมตลอดชีพ · ส่วนลดร้านอาหาร Culinary Collective สูงสุด 10% · ผ่อน 0% สูงสุด 10 เดือน · ประกันเดินทาง 8 ลบ.", minSalary: 15000, categories: ["lowincome", "nofee", "points", "dining", "installment"] },
+    { title: "KTC DIGITAL PLATINUM (VISA)", summary: "บัตรดิจิทัล Dynamic CVV · ฟรีตลอดชีพ · ประกันเดินทาง 8 ลบ. + ประกัน ตปท. 10 วัน · ผ่อน 0% สูงสุด 10 เดือน", minSalary: 15000, categories: ["lowincome", "nofee", "points", "travel", "installment"] },
+    { title: "KTC UNIONPAY PLATINUM", summary: "ฟรีตลอดชีพ · ส่วนลด U Collection · คะแนน x2 ฮ่องกง/มาเก๊า/ไต้หวัน · ผ่อน 0% สูงสุด 10 เดือน", minSalary: 15000, categories: ["lowincome", "nofee", "points", "dining", "installment"] },
+    { title: "KTC - BANGKOK AIRWAYS JCB PLATINUM", summary: "JCB Lounge ฟรี 8 ครั้ง/ปี + JCB Plaza · สะสมไมล์ FlyerBonus + ลด 15% แลกตั๋ว · ฟรีตลอดชีพ", minSalary: 15000, categories: ["lowincome", "nofee", "lounge", "miles", "travel", "points"], url: "https://www.ktc.co.th/credit-card/co-branded" },
   ],
   bbl: [
     { title: "บัตรเครดิตแพลทินัม ธนาคารกรุงเทพ", summary: "บัตรหลักสะสมคะแนน Thank You Rewards ใช้จ่ายทั่วไป", minSalary: 15000, categories: ["lowincome", "points"] },
@@ -80,6 +84,10 @@ export const SEED = {
     { title: "บัตรเครดิต UOB Premier", summary: "ห้องรับรองสนามบินในไทย 2 ครั้ง/ปี (แสดงบัตร+Boarding Pass, ≤2 ชม./ครั้ง) สะสมคะแนนพิเศษ", minSalary: 30000, categories: ["lounge", "travel", "points"], url: "https://www.uob.co.th/personal-en/credit-cards/shopping/uob-premier-credit-card.page" },
     { title: "บัตรเครดิต UOB Lady's Solitaire", summary: "บัตรผู้หญิงระดับบน สิทธิ์ท่องเที่ยวและร้านอาหาร", minSalary: 30000, categories: ["travel", "dining"] },
     { title: "บัตรเครดิต UOB Visa Infinite", summary: "บัตรพรีเมียมสูงสุด สิทธิ์เลานจ์และบริการระดับโลก", minSalary: 100000, categories: ["premium", "lounge", "travel"] },
+    { title: "บัตรเครดิต UOB Simple", summary: "ฟรีค่าธรรมเนียมตลอดชีพ · ผ่อน 0% สูงสุด 10 เดือน (UOB i-Plan) · เงินคืนเดือนเกิดที่ Starbucks · ดูหนัง SF 1 ฟรี 1", minSalary: 15000, categories: ["lowincome", "nofee", "installment", "cashback"] },
+  ],
+  cardx: [
+    { title: "CardX JCB PLATINUM", summary: "JCB Lounge ฟรี 8 ครั้ง/ปี (60+ แห่งทั่วโลก) · เงินคืน 3% ใช้จ่าย ตปท. (ญี่ปุ่น/เกาหลี/ฮ่องกง/สิงคโปร์/ไต้หวัน) · ฟรีตลอดชีพ", minSalary: 15000, categories: ["lowincome", "nofee", "lounge", "cashback", "travel", "points"], url: "https://www.cardx.co.th/products/credit-card" },
   ],
   aeon: [
     { title: "AEON UnionPay Platinum", summary: "Miracle Lounge สุวรรณภูมิ/ดอนเมือง 2 ครั้ง/ปี — ต้องรับบัตรกำนัลก่อน (ลูกค้าใหม่ใช้จ่าย ≥20,000/60 วัน หรือเดิม ≥120,000/ปี)", minSalary: 15000, categories: ["lowincome", "lounge", "travel"], url: "https://www.aeon.co.th/aeon/news-events/privileges-union-pay-platinum" },
