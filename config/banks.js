@@ -164,7 +164,7 @@ export const BANKS = [
   {
     id: "amex",
     name: "อเมริกัน เอ็กซ์เพรส (American Express)",
-    short: "AmEx",
+    short: "Amex",
     color: "#006fcf",
     url: "https://www.americanexpress.com/th-th/",
     needsJs: true,
