@@ -108,13 +108,13 @@ export const SEED = {
   ],
   aeon: [
     { title: "AEON UnionPay Platinum", summary: "Miracle Lounge สุวรรณภูมิ/ดอนเมือง 2 ครั้ง/ปี — ต้องรับบัตรกำนัลก่อน (ลูกค้าใหม่ใช้จ่าย ≥20,000/60 วัน หรือเดิม ≥120,000/ปี)", minSalary: 15000, categories: ["lowincome", "lounge", "travel"], url: "https://www.aeon.co.th/aeon/news-events/privileges-union-pay-platinum" },
-    { title: "AEON Royal Orchid Plus JCB Platinum", summary: "Royal Silk Lounge (การบินไทย) สุวรรณภูมิ+เชียงใหม่ 2 ครั้ง/ปี — ต้องบินการบินไทย · สะสมไมล์ ROP + JCB Lounge ตปท.", minSalary: 30000, categories: ["lounge", "travel", "miles"], url: "https://www.aeon.co.th/aeon/cards/aeon-rop-platinum-card" },
+    { title: "AEON Royal Orchid Plus JCB Platinum", summary: "ห้องรับรองการบินไทย 2 ครั้ง/ปี (สุวรรณภูมิ Orchid Access + เชียงใหม่ Royal Orchid Lounge) + JCB Airport Lounge ตปท. · ห้องรับรองอิออน 4 ครั้ง/เดือน · สะสมไมล์ ROP · เงินคืน 3% ตั๋วการบินไทย · ค่าธรรมเนียมรายปี 3,000 บาท (ฟรีเมื่อใช้จ่าย ≥300,000/ปี)", minSalary: 30000, categories: ["lounge", "travel", "miles", "dining"], url: "https://www.aeon.co.th/aeon/cards/aeon-rop-platinum-card" },
     { title: "AEON Classic Visa", summary: "บัตรเริ่มต้น สะสมคะแนน AEON Point ผ่อน 0% ที่ร้านร่วมรายการ", minSalary: 15000, categories: ["lowincome", "points", "installment"] },
     { title: "AEON Gold Visa", summary: "บัตรทอง สะสมคะแนนและสิทธิพิเศษเพิ่มจากบัตรคลาสสิก", minSalary: 20000, categories: ["points", "cashback"] },
     { title: "AEON Gold Mastercard", summary: "บัตรทอง Mastercard สะสมคะแนนและส่วนลดร้านค้า", minSalary: 20000, categories: ["points", "cashback"] },
     { title: "AEON Primo Digital", summary: "บัตรดิจิทัล สมัครง่าย เน้นช้อปออนไลน์และเครดิตเงินคืน", minSalary: 15000, categories: ["lowincome", "online", "cashback"] },
     { title: "AEON Nextgen Digital", summary: "บัตรดิจิทัลสำหรับคนรุ่นใหม่ ช้อปออนไลน์รับสิทธิ์พิเศษ", minSalary: 15000, categories: ["lowincome", "online", "cashback"] },
-    { title: "AEON Royal Orchid Plus Visa Platinum", summary: "สะสมไมล์การบินไทย (ROP) ทุกการใช้จ่าย เหมาะกับนักเดินทาง", minSalary: 30000, categories: ["miles", "travel"] },
+    { title: "AEON Royal Orchid Plus World Mastercard", summary: "สะสมไมล์การบินไทย (ROP) + สิทธิ์ห้องรับรองการบินไทย เหมาะกับนักเดินทาง (รายได้ขั้นต่ำ 30,000)", minSalary: 30000, categories: ["lounge", "travel", "miles"], url: "https://www.aeon.co.th/aeon/cards/aeon-rop-world-card" },
   ],
   icbc: [
     { title: "ICBC ANY Mastercard Platinum", summary: "บัตรกำนัล Miracle Lounge + DragonPass — บัตรระดับ Platinum (รายได้ขั้นต่ำ 15,000 สัญชาติไทย)", minSalary: 15000, categories: ["lowincome", "lounge", "travel"], url: "https://www.icbcthai.com/th/column/1035483406035103745.html" },
