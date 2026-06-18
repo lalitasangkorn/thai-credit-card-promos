@@ -65,7 +65,7 @@ export const SEED = {
     { title: "บัตรเครดิตวีซ่า ซิกเนเจอร์ ธนาคารกรุงเทพ", summary: "บัตรระดับบน สิทธิ์เลานจ์สนามบิน ร้านอาหารและท่องเที่ยว", minSalary: 50000, categories: ["lounge", "travel", "dining"] },
     { title: "บัตรเครดิตแพลทินัม ลีดเดอร์ชิป ธนาคารกรุงเทพ", summary: "สิทธิ์พิเศษสำหรับลูกค้าองค์กรและผู้บริหาร สะสมคะแนน", minSalary: 50000, categories: ["points", "travel"] },
     { title: "บัตรอินฟินิท ธนาคารกรุงเทพ (Visa Infinite)", summary: "บัตรพรีเมียมสูงสุด สิทธิ์เลานจ์และบริการระดับโลก", minSalary: 100000, categories: ["premium", "lounge", "travel"] },
-    { title: "บัตรเครดิตกรุงเทพ อเมริกัน เอ็กซ์เพรส (AmEx)", summary: "บัตร American Express จากธนาคารกรุงเทพ สะสมคะแนนและสิทธิพิเศษ AmEx Selects", minSalary: 15000, categories: ["lowincome", "points"] },
+    { title: "บัตรเครดิตกรุงเทพ อเมริกัน เอ็กซ์เพรส (Amex)", summary: "บัตร American Express จากธนาคารกรุงเทพ สะสมคะแนนและสิทธิพิเศษ Amex Selects", minSalary: 15000, categories: ["lowincome", "points"] },
     { title: "บัตรเครดิตกรุงเทพ M LIVE Visa Platinum", summary: "สายไลฟ์สไตล์/ความบันเทิง สะสมคะแนนและส่วนลดร้านอาหาร", minSalary: 15000, categories: ["lowincome", "points", "dining"] },
     { title: "บัตรเครดิตกรุงเทพแรบบิท (Rabbit)", summary: "ผูกบัตรแรบบิทขึ้น BTS และใช้จ่ายออนไลน์สะดวก", minSalary: 15000, categories: ["lowincome", "online"] },
     { title: "บัตรเครดิตกรุงเทพ ท่องเที่ยว แพลทินัม", summary: "บัตรสายเที่ยว ส่วนลดและสะสมคะแนนเพื่อการเดินทาง", minSalary: 15000, categories: ["lowincome", "travel", "points"] },
@@ -121,7 +121,7 @@ export const SEED = {
     { title: "ICBC Global Travel", summary: "บัตร 3 สกุลเงิน + บัตรกำนัล Miracle Lounge + DragonPass — เหมาะกับสายเที่ยวต่างประเทศ", minSalary: 15000, categories: ["lowincome", "lounge", "travel", "online"], url: "https://www.icbcthai.com/th/column/1438059017468788915.html" },
   ],
   amex: [
-    { title: "American Express Green Card", summary: "บัตรชาร์จเริ่มต้นของ AmEx สะสม Membership Rewards + สิทธิ์ AmEx Selects (รายได้ขั้นต่ำโปรดตรวจกับ AmEx)", minSalary: 30000, categories: ["points", "dining"], url: "https://www.americanexpress.com/th/en/charge-cards/american-express-green-card/" },
+    { title: "American Express Green Card", summary: "บัตรชาร์จเริ่มต้นของ Amex สะสม Membership Rewards + สิทธิ์ Amex Selects (รายได้ขั้นต่ำโปรดตรวจกับ Amex)", minSalary: 30000, categories: ["points", "dining"], url: "https://www.americanexpress.com/th/en/charge-cards/american-express-green-card/" },
     { title: "American Express Gold Card", summary: "บัตรชาร์จระดับทอง สะสมคะแนน + สิทธิ์ร้านอาหาร/ท่องเที่ยว · รายได้ขั้นต่ำ 420,000 บาท/ปี (~35,000/เดือน)", minSalary: 35000, categories: ["points", "dining", "travel"], url: "https://www.americanexpress.com/th/en/campaigns/gold-charge-card/" },
     { title: "American Express Platinum Credit Card", summary: "บัตรเครดิตระดับบน สิทธิ์เลานจ์สนามบินและท่องเที่ยว · รายได้ขั้นต่ำ 500,000 บาท/ปี (~42,000/เดือน)", minSalary: 42000, categories: ["lounge", "travel", "dining", "points"], url: "https://www.americanexpress.com/th/en/credit-cards/thai-platinum-credit-card/" },
     { title: "The Platinum Card (American Express)", summary: "บัตรชาร์จพรีเมียมสูงสุด สิทธิ์เลานจ์ทั่วโลก (Priority Pass/Centurion) และบริการระดับสูง", minSalary: 100000, categories: ["premium", "lounge", "travel", "points"], url: "https://www.americanexpress.com/th/en/charge-cards/thai-platinum-card/" },
