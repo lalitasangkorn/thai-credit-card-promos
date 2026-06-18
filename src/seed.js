@@ -121,9 +121,9 @@ export const SEED = {
     { title: "ICBC Global Travel", summary: "บัตร 3 สกุลเงิน + บัตรกำนัล Miracle Lounge + DragonPass — เหมาะกับสายเที่ยวต่างประเทศ", minSalary: 15000, categories: ["lowincome", "lounge", "travel", "online"], url: "https://www.icbcthai.com/th/column/1438059017468788915.html" },
   ],
   amex: [
-    { title: "American Express Green Card", summary: "บัตรชาร์จเริ่มต้นของ AmEx สะสม Membership Rewards + สิทธิ์ AmEx Selects (โปรดตรวจรายได้ขั้นต่ำกับ AmEx)", minSalary: 15000, categories: ["lowincome", "points", "dining"], url: "https://www.americanexpress.com/th-th/" },
-    { title: "American Express Gold Card", summary: "บัตรชาร์จระดับทอง สะสมคะแนน + สิทธิ์ร้านอาหารและท่องเที่ยว", minSalary: 30000, categories: ["points", "dining", "travel"], url: "https://www.americanexpress.com/th-th/" },
-    { title: "American Express Platinum Credit Card", summary: "บัตรเครดิตระดับบน สะสมคะแนน สิทธิ์เลานจ์สนามบินและท่องเที่ยว", minSalary: 50000, categories: ["lounge", "travel", "dining", "points"], url: "https://www.americanexpress.com/th-th/" },
-    { title: "The Platinum Card (American Express)", summary: "บัตรพรีเมียมสูงสุด สิทธิ์เลานจ์ทั่วโลก (Priority Pass/Centurion) และบริการระดับสูง", minSalary: 100000, categories: ["premium", "lounge", "travel", "points"], url: "https://www.americanexpress.com/th-th/" },
+    { title: "American Express Green Card", summary: "บัตรชาร์จเริ่มต้นของ AmEx สะสม Membership Rewards + สิทธิ์ AmEx Selects (รายได้ขั้นต่ำโปรดตรวจกับ AmEx)", minSalary: 30000, categories: ["points", "dining"], url: "https://www.americanexpress.com/th/en/charge-cards/american-express-green-card/" },
+    { title: "American Express Gold Card", summary: "บัตรชาร์จระดับทอง สะสมคะแนน + สิทธิ์ร้านอาหาร/ท่องเที่ยว · รายได้ขั้นต่ำ 420,000 บาท/ปี (~35,000/เดือน)", minSalary: 35000, categories: ["points", "dining", "travel"], url: "https://www.americanexpress.com/th/en/campaigns/gold-charge-card/" },
+    { title: "American Express Platinum Credit Card", summary: "บัตรเครดิตระดับบน สิทธิ์เลานจ์สนามบินและท่องเที่ยว · รายได้ขั้นต่ำ 500,000 บาท/ปี (~42,000/เดือน)", minSalary: 42000, categories: ["lounge", "travel", "dining", "points"], url: "https://www.americanexpress.com/th/en/credit-cards/thai-platinum-credit-card/" },
+    { title: "The Platinum Card (American Express)", summary: "บัตรชาร์จพรีเมียมสูงสุด สิทธิ์เลานจ์ทั่วโลก (Priority Pass/Centurion) และบริการระดับสูง", minSalary: 100000, categories: ["premium", "lounge", "travel", "points"], url: "https://www.americanexpress.com/th/en/charge-cards/thai-platinum-card/" },
   ],
 };
