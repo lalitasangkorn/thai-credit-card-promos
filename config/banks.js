@@ -161,6 +161,21 @@ export const BANKS = [
       image: "img",
     },
   },
+  {
+    id: "amex",
+    name: "อเมริกัน เอ็กซ์เพรส (American Express)",
+    short: "AmEx",
+    color: "#006fcf",
+    url: "https://www.americanexpress.com/th-th/",
+    needsJs: true,
+    selectors: {
+      card: ".card-item, .promotion-card, article",
+      title: "h3, .title",
+      summary: ".description, p",
+      link: "a",
+      image: "img",
+    },
+  },
 ];
 
 export const BANK_BY_ID = Object.fromEntries(BANKS.map((b) => [b.id, b]));
